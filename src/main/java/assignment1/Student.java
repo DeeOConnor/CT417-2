@@ -14,13 +14,15 @@ public class Student {
     private static int ID = 201800;
 
     private String username;
-    private final Course course;
-    private final Module module;
+    private String course;
+    private String module;
+    //private final Course course;
+    //private final Module module;
 
     //https://stackoverflow.com/questions/29062204/create-localdate-object-from-integers
-    public Student(String name, LocalDate dob, Course course, Module module) {
+    public Student(String name, int age, String course, String module) {
         this.name = name;
-        this.dob = dob.of(year);
+        this.age = age;
         this.course = course;
         this.module = module;
         this.ID +=1;

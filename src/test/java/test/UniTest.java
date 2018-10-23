@@ -11,7 +11,7 @@ public class UniTest {
     @Test
     public static void checkUsername() {
         //String name, LocalDate dob, Course course, Module module
-        Student s = new Student("Michael", 19, 12/1/2001, ); //that shouldn't work as other params are missing..
+        Student s = new Student("Michael", 19, "cs & it", "CT417"); //that shouldn't work as other params are missing..
         //need to create entire course in here!?
         //https://stackoverflow.com/questions/2923227/displaying-date-of-birth-in-java-by-using-date-util for dob
         String testUsername = "Michael_19";
@@ -20,14 +20,17 @@ public class UniTest {
     
     @Test
     public void checkAge() {
-        Student s2 = new Student();
+        Student s2 = new Student("Michael", 19, "cs & it", "ct417");
         LocalDate birthDate = LocalDate.of(1961, 5, 17);
         
-        int actual = AgeCalculator.calculateAge(birthDate, LocalDate.of(2016, 7, 12));
-        // assert
-        assertEquals(55, actual);
+        //int actual = AgeCalculator.calculateAge(birthDate, LocalDate.of(2016, 7, 12));
+
+        assertEquals(s2.getAge(), 19);
     }
 }
+
+
+//https://platform.netbeans.org/tutorials/nbm-maven-commandline.html maven installation stuff
 
 /*
 import org.junit.After;
