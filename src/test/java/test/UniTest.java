@@ -6,6 +6,13 @@ import java.time.LocalDate;
 import java.time.Month;
 import static junit.framework.Assert.assertEquals;
 import org.junit.Test;
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import static org.junit.Assert.*;
+
 
 public class UniTest {
 
@@ -36,12 +43,7 @@ public class UniTest {
 //https://platform.netbeans.org/tutorials/nbm-maven-commandline.html maven installation stuff
 
 /*
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
-import static org.junit.Assert.*;
+
 
 
  
