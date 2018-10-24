@@ -17,15 +17,15 @@ import static org.junit.Assert.*;
 public class UniTest {
 
     @Test
-    public static void checkUsername() {
+    public void checkUsername() {
         //String name, LocalDate dob, Course course, Module module
         Student s = new Student("Michael", "CS & IT", "CT417"); //that shouldn't work as other params are missing..
         LocalDate newDOB = LocalDate.of(1990, Month.MAY, 10);
         s.setDateOfBirth(newDOB);
         //need to create entire course in here!?
         //https://stackoverflow.com/questions/2923227/displaying-date-of-birth-in-java-by-using-date-util for dob
-        String testUsername = "Michael_28";
-        assertEquals(s.getUsername(), testUsername);
+        String testUsername = s.getUsername();
+        assertEquals("Michael_28", testUsername);
     }
     
     @Test
@@ -34,8 +34,9 @@ public class UniTest {
         Student s2 = new Student("Michael", "CS & IT", "CT417");
         s2.setDateOfBirth(birthDate);
         //int actual = AgeCalculator.calculateAge(birthDate, LocalDate.of(2016, 7, 12));
-
-        assertEquals(s2.getAge(), 18);
+        int age = s2.getAge();
+        
+        assertEquals(18, age);
     }
 }
 

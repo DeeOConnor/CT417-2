@@ -3,6 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+/*
 package test;
 
 import assignment1.Student;
@@ -13,11 +14,12 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
-
+*/
 /**
  *
  * @author dee1o
  */
+/*
 public class StudentTest {
     
     public StudentTest() {
@@ -38,10 +40,11 @@ public class StudentTest {
     @After
     public void tearDown() {
     }
-
+*/
     /**
      * Test of getDateOfBirth method, of class Student.
      */
+/*
     @Test
     public void testGetDateOfBirth() {
         System.out.println("getDateOfBirth");
@@ -52,10 +55,11 @@ public class StudentTest {
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
-
+*/
     /**
      * Test of setDateOfBirth method, of class Student.
      */
+/*
     @Test
     public void testSetDateOfBirth() {
         System.out.println("setDateOfBirth");
@@ -65,10 +69,11 @@ public class StudentTest {
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
-
+*/
     /**
      * Test of getID method, of class Student.
      */
+/*
     @Test
     public void testGetID() {
         System.out.println("getID");
@@ -79,10 +84,11 @@ public class StudentTest {
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
-
+*/
     /**
      * Test of getName method, of class Student.
      */
+/*
     @Test
     public void testGetName() {
         System.out.println("getName");
@@ -93,10 +99,11 @@ public class StudentTest {
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
-
+*/
     /**
      * Test of getAge method, of class Student.
      */
+/*
     @Test
     public void testGetAge() {
         System.out.println("getAge");
@@ -107,10 +114,11 @@ public class StudentTest {
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
-
+*/
     /**
      * Test of getDOB method, of class Student.
      */
+/*
     @Test
     public void testGetDOB() {
         System.out.println("getDOB");
@@ -121,10 +129,11 @@ public class StudentTest {
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
-
+*/
     /**
      * Test of getUsername method, of class Student.
      */
+/*
     @Test
     public void testGetUsername() {
         System.out.println("getUsername");
@@ -137,3 +146,4 @@ public class StudentTest {
     }
     
 }
+*/
