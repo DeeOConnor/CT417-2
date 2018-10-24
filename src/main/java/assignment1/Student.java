@@ -63,7 +63,7 @@ public class Student {
     //student.getCourses: for each course that contains student, return name..
     
     public String getUsername() {
-        username = name + "_" + age;
+        username = name + "_" + Integer.toString(age);
         return username;
     }
 
