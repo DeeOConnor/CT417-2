@@ -15,11 +15,8 @@
         <dependency>
             <groupId>com.github.DeeOConnor</groupId>
             <artifactId>CT417</artifactId>
-            <version>3a3e8ce</version>
-    <artifactId>CT417_Assignment1</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
-    <dependencies>
+            <version>75324cd</version>
+        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -38,11 +35,6 @@
             <version>2.10</version>
         </dependency>
 <!--        <dependency>
-	    <groupId>com.github.User</groupId>
-	    <artifactId>Repo</artifactId>
-	    <version>Tag</version>
-	</dependency>
-        <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <scope>test</scope>
