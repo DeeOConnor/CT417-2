@@ -31,31 +31,31 @@ public class MockUniversity {
     Student s1 = new Student("Anna", dob1, "CS", "CT417");
     
     LocalDate dob2 = LocalDate.of(1998, Month.FEBRUARY, 11);
-    //Student s2 = new Student("Barry", dob2, "CS", "Maths");
+    Student s2 = new Student("Barry", dob2, "CS", "Maths");
     
     LocalDate dob3 = LocalDate.of(1997, Month.MARCH, 12);
-    //Student s3 = new Student("Carla", dob3, "CS", "Maths");
+    Student s3 = new Student("Carla", dob3, "CS", "Maths");
     
     LocalDate dob4 = LocalDate.of(1996, Month.APRIL, 13);
-    //Student s4 = new Student("Darren", dob4, "CS", "CT418");
+    Student s4 = new Student("Darren", dob4, "CS", "CT418");
     
     LocalDate dob5 = LocalDate.of(1995, Month.MAY, 14);
-    //Student s5 = new Student("Edel", dob5, "CS", "CS150");
+    Student s5 = new Student("Edel", dob5, "CS", "CS150");
 
     LocalDate dob6 = LocalDate.of(1994, Month.JUNE, 15);
-    //Student s6 = new Student("Fergus", dob6, "CS", "CS150");
+    Student s6 = new Student("Fergus", dob6, "CS", "CS150");
     
     LocalDate dob7 = LocalDate.of(1993, Month.JULY, 16);
-    //Student s7 = new Student("Grainne", dob7, "CS", "CT417");
+    Student s7 = new Student("Grainne", dob7, "CS", "CT417");
     
     LocalDate dob8 = LocalDate.of(1992, Month.AUGUST, 17);
-    //Student s8 = new Student("Harry", dob8, "CS", "CT417");
+    Student s8 = new Student("Harry", dob8, "CS", "CT417");
     
     LocalDate dob9 = LocalDate.of(1991, Month.SEPTEMBER, 18);
-    //Student s9 = new Student("Ida", dob9, "CS", "CS150");
+    Student s9 = new Student("Ida", dob9, "CS", "CS150");
     
     LocalDate dob10 = LocalDate.of(1990, Month.OCTOBER, 20);
-    //Student s10 = new Student("Joe", dob10, "CS", "CT418");
+    Student s10 = new Student("Joe", dob10, "CS", "CT418");
        
     
     //lots of modules, have lots of students
